@@ -2,11 +2,6 @@ import streamlit as st
 from src.application.generate_cpf import generate_cpf
 from src.application.validate_cpf import validate_cpf
 
-
-
-
-
-
 st.title('Gerador de CPF')
 st.button('Gerar CPF', on_click=generate_cpf)
 
